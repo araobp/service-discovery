@@ -11,7 +11,7 @@ I just want a very simple service discovery protocol to find an IP address of my
 An UDP packet with a service ID in its payload is broadcast to the LAN's broadcast IP address at a certain interval:
 
 ```
-  Web cam          Launcher app on Android
+  Server                  Client
      |                      |
      |----- UDP 18084 ----->|
      |                      |
@@ -23,12 +23,16 @@ An UDP packet with a service ID in its payload is broadcast to the LAN's broadca
 
 ## Source code
 
-=> [Code](./discovery)
+### Server (C++)
 
-## Sample systemd service file
+=> [Code](./server)
+
+Sample systemd service file:
 
 => [Service file](./systemd)
 
-## Android app to show an IP address of my RaspberryPi 3
+### Client (Kotlin)
 
-(Work in progress)
+=> [Code](./client)
+
+
