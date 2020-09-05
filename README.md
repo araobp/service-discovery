@@ -2,6 +2,8 @@
 
 ## Motivation
 
+My RaspberryPi 3 obtains an IP address from DHCP server on my WiFi router. The IP address changes everytime I boot the Raspberry PI.
+
 I just want a very simple service discovery protocol to find an IP address of my RaspberryPi 3 on the LAN.
 
 ## Message sequence diagram
