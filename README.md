@@ -1,6 +1,6 @@
 # Very simple service discovery protocol
 
-![client](./screenshot_client.png)
+<img src="./screenshot_client.png" width=220>
 
 ## Motivation
 
