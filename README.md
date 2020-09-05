@@ -1,5 +1,7 @@
 # Very simple service discovery protocol
 
+![client](./screenshot_client.png)
+
 ## Motivation
 
 My RaspberryPi 3 obtains an IP address from DHCP server on my WiFi router. The IP address changes everytime I boot the Raspberry PI.
