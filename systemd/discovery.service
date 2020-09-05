@@ -1,0 +1,9 @@
+[Unit]
+Description=Very simple service discovery protocol
+
+[Service]
+ExecStart=/home/pi/bin/discovery -s aicam -p 18084 -i 500
+
+[Install]
+WantedBy=multi-user.target
+
