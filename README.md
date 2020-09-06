@@ -10,9 +10,9 @@ I just want a very simple service discovery protocol to find an IP address of my
 
 ## Why not use a standard procotol?
 
-I used to be a SIP (Session Initiation Protocol) expert. The protocol basically provides a mean to find serivces on the network, such as a VoIP service or a video broadcasting service.
+I used to be a SIP (Session Initiation Protocol) expert. The protocol basically provides a mean to find serivces on the network, such as a VoIP service or a video broadcasting service. The protocol originated from MBONE project, very dependent on IP multicast and IP broadcast, but the protocol has become very complicated to support plane old telephony services...
 
-But, if the scope is limited to my LAN at home, such a very complicated protocol is not necessary.
+If the scope is limited to my LAN at home, such a very complicated protocol is not necessary.
 
 ## Message sequence diagram
 
