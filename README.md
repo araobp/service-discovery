@@ -27,14 +27,18 @@ An UDP packet with a service ID in its payload is broadcast to the LAN's broadca
 
 ### Server (C++)
 
+C++ server code implementation that runs as a Linux daemon on Raspberry Pi:
+
 => [Code](./server)
 
-Sample systemd service file:
+And a sample systemd service file is here:
 
 => [Service file](./systemd)
 
 ### Client (Kotlin)
 
+Kotlin client code for Android smartphones:
+
 => [Code](./client)
 
-
+The GUI also shows its own IP address on its WLAN interface.
